@@ -1,0 +1,56 @@
+body {
+	font-family : Arial;
+}
+.titre {
+	font-size: 28px;
+	font-weight: bold;
+	text-align : center; 
+}
+
+.soustitre {
+	font-size: 18px;
+	font-weight: bold;
+	text-align : center; 
+} 
+
+
+
+.coche{
+	width : 15px;
+	border : 1px solid;
+	display: inline-block;
+	margin-left :5px;
+	margin-right :5px
+}
+
+.second {
+	position: absolute;
+	left:620px;
+}
+
+
+table {
+
+	 border-collapse:collapse
+ }
+td { 
+	 border-width:1px;
+	 border-style:solid; 
+	 width:50%;
+ }
+
+
+	td {
+		font-size: 10px;
+		width:100px;
+
+	}
+	
+	.th {
+		font-weight: bold;
+		text-align:center;
+	}
+
+
+
+}

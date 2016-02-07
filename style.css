@@ -1,0 +1,239 @@
+@media screen and (min-width:1000px) {
+	body {
+		font-family : Arial;
+	}
+
+	#sitename {
+		font-size : 300%;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#siteabrev{
+		font-size : 200%;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#header {
+		background : rgb(192,192,192);
+		margin : 1px;
+		border : solid 0px;
+		height : 100px;
+	}
+
+	#menu {
+		text-align: center;
+		background:rgb(192,192,192);
+		margin : 0px;
+		border : solid 0px;
+	}
+
+	#menu ul li {
+		font-weight: bold;
+		text-transform: uppercase;
+		display: inline;
+		padding : 5px;
+	}
+
+	#sidebar {
+		height:2000px;
+		width : 20%;
+		background:rgb(192,192,192);
+		position:relative;
+		float:left;
+	}
+
+	#document{
+		#display: inline-block;
+		width : 75%;
+		top : 0px;
+		float:left;
+		padding-left: 10px;
+	}
+
+	.headerpart {
+		display: inline-block;
+	}
+
+	.sidebartitle{
+		text-align: center;
+		color:white;
+		font-size : 200%;
+		text-transform: uppercase;
+	}
+
+	.whitetitle{
+		text-align: center;
+		color:white;
+		font-size : 150%;
+	}
+
+	.horaires {
+		color : rgb(0,68,85);
+		text-align: center;
+		margin : 0px;
+	}
+	 .announce{
+		text-align: center;
+		color: red;
+		font-weight: bold;
+		font-size: 200%;
+		border : solid 5px;
+		padding : 10px;
+		margin-bottom : 10px;
+	 }
+
+	.announce p {
+		padding:0px;
+		margin:0px;
+	}
+
+	a {
+		color : rgb(0,68,85);
+		text-decoration: none;
+		font-weight: bold;
+	 }
+	 #logostcyr {
+		float : left;
+	 }
+	 #logoffaaa
+	 {
+		float : right;
+	 }
+	#menutitle{
+		display: none;
+	}
+	#horairetitle{
+		display: none;
+	}
+	
+	.profname {
+		font-weight: bold;
+		font-size: 300%;
+		text-align: center;
+	}
+	
+	.profgrade {
+		font-weight: bold;
+		font-size: 200%;
+		text-align: center;
+	}
+	
+	#photoFrame{
+		border: 2px solid;
+		visibility : hidden;
+		text-align : center;
+		position : fixed;
+		bottom : 0px;
+		background : white;
+		#right : 0px;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	body {
+		font-family : Arial;
+	}
+
+	#sitename {
+		font-size : 120%;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	 
+	#siteabrev{
+		font-size : 110%;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#header {
+		background:rgb(192,192,192);
+		margin : 1px;
+		border : solid 0px;
+		height : 110px;
+	}
+	.headerpart {
+		display: inline-block;
+	}
+		#logostcyr {
+		float : left;
+	 }
+	 #logoffaaa
+	 {
+		float : right;
+	 }
+	 a {
+		color : rgb(0,68,85);
+		text-decoration: none;
+		font-weight: bold;
+	 }
+	#menu {
+		float :left
+	} 
+	#menu ul{
+		display: none;
+	}
+	
+	#menu:hover ul {
+		display: block;
+		list-style: none;
+
+		padding : 10px;
+		position:fixed;
+		background:rgb(192,192,192);
+	}
+	#menu:hover ul li {
+		font-size:200%;
+	}
+	#sidebar #sidebarcontent{
+		display: none;
+	}
+	#sidebar {
+		#float :left
+	}
+	#sidebar:hover #sidebarcontent {
+		display: block;
+		list-style: none;
+		background:rgb(192,192,192);
+		position:fixed;
+		width : 50%;
+		height : 500px;
+	}
+	.sidebartitle{
+		text-align: center;
+		color:white;
+		font-size : 120%;
+		text-transform: uppercase;
+		
+	}
+	.whitetitle{
+		text-align: center;
+		color:white;
+		font-size : 110%;
+	}
+	.horaires {
+		color : rgb(0,68,85);
+		text-align: center;
+		margin : 0px;
+	}
+	.announce{
+		text-align: center;
+		color: red;
+		font-weight: bold;
+		font-size: 150%;
+		border : solid 5px;
+		padding : 10px;
+		margin-bottom : 10px;
+	 }
+	 .announce p {
+		padding:0px;
+		margin:0px;
+	}
+
+}

@@ -1,0 +1,26 @@
+body {
+	font-family : Arial;
+}
+#sitename {
+	font-size : 110%;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+#siteabrev{
+	font-size : 110%;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#header {
+	background:rgb(192,192,192);
+	margin : 1px;
+	border : solid 0px;
+}
+
+a {
+	color : red;
+}
