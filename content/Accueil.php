@@ -1,7 +1,13 @@
 <?
 	$message = file_get_contents("content/message.php");
+	
 	if  ($message !="") {
-		echo '<div class="announce">'.$message.'</div>';
+		$tab = split("\n",$message);
+		echo '<div class="announce">';
+		foreach($tab as $t){
+			if ($t !="" ) echo "<p>$t</p>";
+		}
+		echo '</div>';
 	} 
 
 ?>

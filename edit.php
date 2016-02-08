@@ -18,13 +18,8 @@
         <form action="edit.php" method="GET">
 			<input type="submit" value="Sauver"/>
             <textarea name="editor1" id="editor1" rows="30" cols="80">
-                <?=$message?>
+<?=$message?>
             </textarea>
-            <script>
-                // Replace the <textarea id="editor1"> with a CKEditor
-                // instance, using default configuration.
-                CKEDITOR.replace( 'editor1' );
-            </script>
         </form>
     </body>
 </html> 
