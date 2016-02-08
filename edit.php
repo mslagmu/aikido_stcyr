@@ -17,9 +17,7 @@
     <body>
         <form action="edit.php" method="GET">
 			<input type="submit" value="Sauver"/>
-            <textarea name="editor1" id="editor1" rows="30" cols="80">
-<?=$message?>
-            </textarea>
+            <textarea name="editor1" id="editor1" rows="30" cols="80"><?=$message?></textarea>
         </form>
     </body>
 </html> 
