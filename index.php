@@ -5,6 +5,27 @@
 	function image($name) {
 		print "<img src=\"$name.jpg\"\> ";
 	}
+
+if (file_exists("histo.txt")) {
+	$histo = unserialize(file_get_contents("histo.txt"));
+} else {
+	$histo = array();
+	$histo["count"]=0;
+	$hsito["v"] = array();
+}
+
+$ip = $_SERVER['REMOTE_ADDR'];
+if ( isset($histo["v"][$ip]) ) {
+	$t = $histo["v"][$ip];
+	$histo["v"][$ip]=time();
+	if (time()-$t > 3600) $histo["count"]++;
+} else {
+	$histo["v"][$ip]=time();
+	$histo["count"]++;
+}
+
+file_put_contents("histo.txt",serialize($histo));
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
