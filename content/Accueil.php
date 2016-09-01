@@ -2,7 +2,7 @@
 	$message = file_get_contents("content/message.php");
 	
 	if  ($message !="") {
-		$tab = split("\n",$message);
+		$tab = explode("\n",$message);
 		echo '<div class="announce">';
 		foreach($tab as $t){
 			if ($t !="" ) echo "<p>$t</p>";

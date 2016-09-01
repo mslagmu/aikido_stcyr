@@ -33,7 +33,10 @@ file_put_contents("histo.txt",serialize($histo));
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet"  type="text/css" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
     <link rel="icon" type="image/png" href="logoaikido.png" />
+    <meta name="keywords" content="aikido,aïkido,Saint Cyr, Saint Cyr L'Ecole, saint cyr l'école, yvelines,arts martiaux"> 
+    <meta name="description" content="Ce site est le site officiel de club d'Aïkido de Saint Cyr L'Ecole"> 
     <title>AIKIDO SAINT CYR CLUB 78</title>
 </head>
 <body>
@@ -53,7 +56,6 @@ file_put_contents("histo.txt",serialize($histo));
 			<li><? showLink("Informations"); ?></li>
 			<li><? showLink("Inscription"); ?></li>
 			<li><? showLink("Photos"); ?></li>
-			<li><? showLink("Video"); ?></li>
 
 		</ul> 
 	</div>
